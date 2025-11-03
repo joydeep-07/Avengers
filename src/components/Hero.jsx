@@ -26,7 +26,6 @@ const Hero = () => {
         <div className="absolute inset-0 bg-gradient-to-br from-transparent via-red-900/15 to-red-600/10"></div>
       </div>
 
-      {/* Enhanced vignette for focus */}
       <div className="absolute inset-0 shadow-[inset_0_0_200px_rgba(0,0,0,0.9),inset_0_0_100px_rgba(139,0,0,0.2)] pointer-events-none"></div>
 
       {/* Content with high contrast for red background */}
