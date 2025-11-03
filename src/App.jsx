@@ -8,13 +8,12 @@ import NotFound from "./pages/NotFound.jsx";
 import Lenis from "@studio-freight/lenis";
 
 const App = () => {
-  // Initialize Lenis for smooth scrolling
   useEffect(() => {
     const lenis = new Lenis({
-      duration: 1.2, // scroll speed (lower = slower)
-      easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)), // easing curve
+      duration: 1.2, 
+      easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)), 
       smooth: true,
-      smoothTouch: false, // set true if you want smooth scroll on mobile too
+      smoothTouch: false, 
     });
 
     const raf = (time) => {
@@ -25,7 +24,7 @@ const App = () => {
     requestAnimationFrame(raf);
 
     return () => {
-      lenis.destroy(); // cleanup on unmount
+      lenis.destroy(); 
     };
   }, []);
 
