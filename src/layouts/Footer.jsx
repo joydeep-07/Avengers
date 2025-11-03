@@ -7,7 +7,7 @@ const Footer = () => {
       <section id="contact">
         <footer className="bg-black text-gray-300 pt-16 pb-8 border-t border-neutral-600/10">
           <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
-            {/* Brand */}
+          
             <div>
               <h2 className="text-white uppercase text-2xl font-bold mb-4 tracking-widest">
                 Avengers
@@ -18,7 +18,7 @@ const Footer = () => {
               </p>
             </div>
 
-            {/* Skills */}
+          
             <div>
               <h4 className="text-cyan-400 font-semibold mb-4 tracking-wide">
                 SKILLS
@@ -42,7 +42,7 @@ const Footer = () => {
               </ul>
             </div>
 
-            {/* Contact */}
+         
             <div>
               <h4 className="text-cyan-400 font-semibold mb-4 tracking-wide">
                 CONTACT
@@ -69,7 +69,7 @@ const Footer = () => {
               </ul>
             </div>
 
-            {/* Socials */}
+           
             <div>
               <h4 className="text-cyan-400 font-semibold mb-4 tracking-wide">
                 SOCIALS
@@ -107,7 +107,7 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Bottom */}
+         
           <div className="mt-12 text-center text-sm text-gray-500 border-t border-neutral-600/20 pt-6">
             © {new Date().getFullYear()} Joydeep Paul. All rights reserved.
           </div>
