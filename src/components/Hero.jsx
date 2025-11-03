@@ -89,7 +89,7 @@ const Hero = () => {
           <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/5 to-transparent transform -skew-x-12 transition-all duration-1000 group-hover:translate-x-full"></div>
         </button>
 
-        {/* Scroll indicator */}
+       
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
           <div className="w-6 h-10 border-2 border-gray-400/60 rounded-full flex justify-center">
             <div className="w-1 h-3 bg-gray-400/60 rounded-full mt-2 animate-bounce"></div>
