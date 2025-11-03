@@ -38,7 +38,7 @@ const Hero = () => {
           </span>
         </div>
 
-        {/* High-contrast title */}
+       
         <h1
           className={`text-7xl md:text-8xl lg:text-9xl font-black tracking-tight text-white transform transition-all duration-1000 ${
             isLoaded ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
