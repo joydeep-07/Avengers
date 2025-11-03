@@ -49,7 +49,7 @@ const Hero = () => {
           </span>
         </h1>
 
-        {/* High-contrast subtitle */}
+       
         <p
           className={`mt-8 text-xl md:text-2xl text-gray-100 max-w-3xl leading-relaxed transform transition-all duration-1000 delay-300 ${
             isLoaded ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
