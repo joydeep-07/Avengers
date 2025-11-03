@@ -64,7 +64,7 @@ const Hero = () => {
           must reassemble to restore peace.
         </p>
 
-        {/* High-contrast CTA button */}
+        
         <button
           className={`group mt-12 px-12 py-4 bg-gradient-to-r from-gray-800 via-gray-900 to-black hover:from-gray-700 hover:to-gray-900 text-white text-lg font-semibold rounded-lg shadow-2xl transition-all duration-500 transform ${
             isLoaded ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
