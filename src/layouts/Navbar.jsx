@@ -24,14 +24,14 @@ const Navbar = () => {
       >
         <div className="container mx-auto px-20">
           <div className="flex items-center justify-between">
-            {/* Logo */}
+            
             <div className="flex items-center space-x-2">
               <span className="text-white font-bold text-xl tracking-wider bg-gradient-to-r from-gray-100 to-gray-300 bg-clip-text text-transparent">
                 AVENGERS
               </span>
             </div>
 
-            {/* Desktop Navigation */}
+           
             <div className="hidden md:flex items-center space-x-8">
               {["Home", "Characters", "Story", "Gallery", "About"].map(
                 (item) => (
@@ -47,7 +47,7 @@ const Navbar = () => {
               )}
             </div>
 
-            {/* Mobile Menu Button */}
+           
             <button
               className="md:hidden text-gray-300 hover:text-white transition-colors"
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
@@ -73,7 +73,7 @@ const Navbar = () => {
           </div>
         </div>
 
-        {/* Mobile Menu */}
+      
         <div
           className={`md:hidden absolute top-full left-0 w-full bg-black/95 backdrop-blur-md border-b border-gray-800 transition-all duration-500 overflow-hidden ${
             isMobileMenuOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
@@ -101,7 +101,7 @@ const Navbar = () => {
         </div>
       </nav>
 
-      {/* Background overlay for mobile menu */}
+    
       <div
         className={`fixed inset-0 bg-black/50 backdrop-blur-sm z-40 transition-opacity duration-500 md:hidden ${
           isMobileMenuOpen ? "opacity-100" : "opacity-0 pointer-events-none"
