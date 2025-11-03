@@ -30,7 +30,7 @@ const Hero = () => {
 
      
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-6">
-        {/* Marvel Studios badge */}
+        
         <div className="mb-8 opacity-90">
           <div className="w-16 h-1 bg-gray-300 mx-auto mb-2"></div>
           <span className="text-gray-300 text-sm tracking-widest font-semibold uppercase">
