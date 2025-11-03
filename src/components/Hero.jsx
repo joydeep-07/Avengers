@@ -97,7 +97,7 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Additional cinematic elements */}
+     
       <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-black to-transparent pointer-events-none"></div>
 
       {/* Subtle film grain for cinematic texture */}
