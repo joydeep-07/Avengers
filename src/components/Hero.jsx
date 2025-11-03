@@ -23,8 +23,6 @@ const Hero = () => {
         <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-black/80"></div>
         <div className="absolute inset-0 bg-gradient-to-r from-black/50 via-transparent to-black/50"></div>
         <div className="absolute inset-0 bg-blue-900/10 mix-blend-overlay"></div>
-
-        {/* Cinematic accent lighting */}
         <div className="absolute inset-0 bg-gradient-to-br from-transparent via-red-900/15 to-red-600/10"></div>
       </div>
 
