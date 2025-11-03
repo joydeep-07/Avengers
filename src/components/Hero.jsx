@@ -20,8 +20,6 @@ const Hero = () => {
               : "scale-110 brightness-100"
           }`}
         />
-
-        {/* Color correction overlays */}
         <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-black/80"></div>
         <div className="absolute inset-0 bg-gradient-to-r from-black/50 via-transparent to-black/50"></div>
 
