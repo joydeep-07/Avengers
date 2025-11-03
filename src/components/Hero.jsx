@@ -28,7 +28,7 @@ const Hero = () => {
 
       <div className="absolute inset-0 shadow-[inset_0_0_200px_rgba(0,0,0,0.9),inset_0_0_100px_rgba(139,0,0,0.2)] pointer-events-none"></div>
 
-      {/* Content with high contrast for red background */}
+     
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-6">
         {/* Marvel Studios badge */}
         <div className="mb-8 opacity-90">
