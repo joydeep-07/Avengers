@@ -10,7 +10,6 @@ const Hero = () => {
 
   return (
     <section className="relative h-screen w-full overflow-hidden">
-      {/* Enhanced Background with color correction */}
       <div className="absolute inset-0">
         {/* Main background image with color balancing */}
         <img
