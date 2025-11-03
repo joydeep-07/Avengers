@@ -11,7 +11,6 @@ const Hero = () => {
   return (
     <section className="relative h-screen w-full overflow-hidden">
       <div className="absolute inset-0">
-        {/* Main background image with color balancing */}
         <img
           src={av6}
           alt="Avengers"
